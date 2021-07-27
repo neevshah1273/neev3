@@ -5,15 +5,24 @@ import {Link} from 'react-router-dom';
 const Navbar= () => {
     return (
         <div className="bg-gray-900">
-            <div className=" ml-10  text-white text-4xl">
-                Neev
-            </div>
-            <div>
+
+            <div className=" ml-10 row-auto text-4xl italic space-x-10">
                 <a
                     href="#projects" 
+                    className="text-white"
                 >
-                    Projects
+                    {"<Projects/>"}
                     </a>
+                    <a
+                    href="#Skills" 
+                    className="text-white"
+                >
+                    {"<Skills/>"}
+                    </a>
+                    
+            </div>
+            <div>
+
             </div>
         </div>
     )

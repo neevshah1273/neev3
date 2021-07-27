@@ -8,12 +8,12 @@ import {
 
 const Projects = () => {
     return (
-        <div className="pt-16 pb-8 " id="projects">
+        <div className="pb-8 " id="projects">
             <div className="text-5xl text-white self-center items-center justify-center content-center text-center">
                 Projects
             </div>  
             <div className="mt-5 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                <div className="bg-1 mx-12 h-120">
+                <div className="bg-1 h-104 card">
                     <h1 className="self-center content-center text-center">
                     Nomadic
                     </h1>
@@ -35,7 +35,7 @@ const Projects = () => {
                         <div className="font-bold">
                             Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux.
                         </div>
-                        <div className="pt-12">
+                        <div className="pt-4">
                         <a href="https://github.com/neevshah1273/Nomadic">
                             <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
                         </a>
@@ -43,17 +43,17 @@ const Projects = () => {
                     </div>
 
                 </div>
-                <div className="bg-2 mx-12 h-120">
+                <div className="bg-2 h-104 card">
                 <h1 className="self-center content-center text-center">
                     Timeflux
                     </h1>
                     <h6 className="self-center content-center text-center">
-                        Website for browsering various timelapses
+                        browsering timelapses
                     </h6>
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                Developed a responsive Application where user can share their time-lapse.
+                                Developed a React application to explore slow Mo and Time-Lapse videos.
                             </li>
                             <li>
                                 Implemented email login using Firebase.
@@ -72,7 +72,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-3 mx-12 h-120">
+                <div className="bg-3 h-104 card">
                 <h1 className="self-center content-center text-center">
                     Portfolio
                     </h1>
@@ -82,17 +82,26 @@ const Projects = () => {
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                                Developed Personal Portfolio
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: ReactJs, TailWindCSS.
+                        </div>
+                        <div className="pt-52">
+                        <a href="">
+                            <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
+                        </a>
+                        </div>                        
                     </div>
+
                 </div>
-                <div className="bg-2 mx-12 h-120">
+                <div className="bg-2 h-104 card">
                     <h1 className="self-center content-center text-center">
-                        Grocery delivery App
+                        Localify
                     </h1>
                     <h6 className="self-center content-center text-center">
-                        A Blogging Website for travellers
+                        Grocery Delivery App
                     </h6>
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
@@ -100,56 +109,68 @@ const Projects = () => {
                                 ffg
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: Flutter, MongoDB, NodeJs, ExpressJs.
+                        </div>
                     </div>
 
                 </div>
-                <div className="bg-3 mx-12 h-120">
+                <div className="bg-3 h-104 card">
                 <h1 className="self-center content-center text-center">
                     CPU Scheduling Algorithm App
                     </h1>
                     <h6 className="self-center content-center text-center">
-                        Website for browsering various timelapses
+                        App
                     </h6>
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                            Solve problems of CPU Scheduling algorithm, solution will show you which process is at which state at every point of time.
+                            </li>
+                            <li>
+                            It helps to understand how CPU Scheduling algorithms works.
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: Flutter.
+                        </div>
                     </div>
                 </div>
-                <div className="bg-1 mx-12 h-120">
+                <div className="bg-1 h-104 card">
                 <h1 className="self-center content-center text-center">
-                    Energy Storage Calculator App
+                    Auction11
                     </h1>
                     <h6 className="self-center content-center text-center">
-                        A Blogging Website for travellers
+                        Work Under Construction
                     </h6>
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                                
                             </li>
                         </ul>
                     </div>
                 </div>                
-                <div className="bg-3 mx-12 h-120">
+                <div className="bg-3 h-104 card">
                     <h1 className="self-center content-center text-center">
                     AirHockey
                     </h1>
                     <h6 className="self-center content-center text-center">
-                        A Blogging Website for travellers
+                        Game Development
                     </h6>
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                                Developed Airhockey using JAVaA
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: java.
+                        </div>
                     </div>
 
                 </div>
-                <div className="bg-1 mx-12 h-120">
+                <div className="bg-1 h-104 card">
                 <h1 className="self-center content-center text-center">
                     Car rental Management System
                     </h1>
@@ -159,14 +180,24 @@ const Projects = () => {
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                            Car rental management system is management system created to manage all aspects of your rental services and allows you to expand your business.
+                            </li>
+                            <li>
+                            It also covers all the aspect from booking a car to leaving it back to the owner.
+                            </li>
+                            <li>
+                            It facilitates all the users and give the various comfortabilities.
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: MySQL.
+                        </div>
                     </div>
+                    
                 </div>
-                <div className="bg-2 mx-12 h-96">
+                <div className="bg-2 h-104 card">
                 <h1 className="self-center content-center text-center">
-                    Nomadic
+                    QUizz APP
                     </h1>
                     <h6 className="self-center content-center text-center">
                         A Blogging Website for travellers
@@ -177,6 +208,10 @@ const Projects = () => {
                                 ffg
                             </li>
                         </ul>
+                        <div className="font-bold">
+                            Used: Django, Python.
+                        </div>
+
                     </div>
                 </div>
             </div>         

@@ -9,9 +9,9 @@ const Home = () => {
             <div className="flex abc h-screen">
                 <div className="m-auto justify-center items-center align-middle">
                     <div className="align-middle content-center items-center m-auto my-auto headshot headshot-2"></div>
-                    <div className="my-7"></div>
+                    <div className="my-4"></div>
                     <div className="text-center text-4xl text-white">SDE</div>
-                    <div className="my-16"></div>
+                    <div className="my-10"></div>
                     <div className="flex">
                         <a href="mailto:neevshah1273@gmail.com">
                         <button className="flex-1 mx-4 bg-blue-500 hover:bg-blue-700 text-white  font-bold py-2 px-4 rounded-full inline-flex items-center
