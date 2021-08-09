@@ -2,9 +2,12 @@ import React from 'react'
 import './Project.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
-    faGithub, 
+    faGithub,
  } from '@fortawesome/free-brands-svg-icons';
 
+ import {
+     faDownload
+ } from '@fortawesome/fontawesome-free';
 
 const Projects = () => {
     return (
@@ -89,7 +92,7 @@ const Projects = () => {
                             Used: ReactJs, TailWindCSS.
                         </div>
                         <div className="pt-52">
-                        <a href="">
+                        <a href="https://github.com/neevshah1273/Portfolio">
                             <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
                         </a>
                         </div>                        
@@ -106,7 +109,13 @@ const Projects = () => {
                     <div className="mx-2">
                         <ul className="list-disc list-inside">
                             <li>
-                                ffg
+                                Developed application to find nearby stores and their real time stock
+                            </li>
+                            <li>
+                                The app allowed users to order groceries from the nearby stores
+                            </li>
+                            <li>
+                                a    
                             </li>
                         </ul>
                         <div className="font-bold">
@@ -133,6 +142,19 @@ const Projects = () => {
                         </ul>
                         <div className="font-bold">
                             Used: Flutter.
+                        </div>
+                        <div className="row-auto pt-0">
+                            <div>
+                                <a href="https://github.com/neevshah1273/CPU-Scheduling">
+                                    <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/neevshah1273/CPU-Scheduling/raw/master/app-release.apk">
+                                    <FontAwesomeIcon icon={faDownload} color="#000" className="fa-3x" />
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -167,6 +189,11 @@ const Projects = () => {
                         <div className="font-bold">
                             Used: java.
                         </div>
+                        <div className="pt-52">
+                        <a href="https://github.com/neevshah1273/AIRHOCKY">
+                            <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
+                        </a>
+                        </div>
                     </div>
 
                 </div>
@@ -185,12 +212,17 @@ const Projects = () => {
                             <li>
                             It also covers all the aspect from booking a car to leaving it back to the owner.
                             </li>
-                            <li>
+                            {/* <li>
                             It facilitates all the users and give the various comfortabilities.
-                            </li>
+                            </li> */}
                         </ul>
                         <div className="font-bold">
                             Used: MySQL.
+                        </div>
+                        <div className="pt-0">
+                        <a href="https://github.com/neevshah1273/Car-Rental-Management-System">
+                            <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
+                        </a>
                         </div>
                     </div>
                     
