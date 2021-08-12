@@ -3,14 +3,34 @@ import Footer from './Components/Footer.js';
 import Home from "./Components/Home";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills.js";
-import React from "react";
-import {Sugar} from 'react-preloaders';
+import React,{useEffect,useState} from "react";
 
 function App() {
+
+  const [data,setData] = useState([]);
+
+  const getData = () => {
+    fetch("data.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setData(myJson);
+      });
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     
     <div>       
-        {/* <Sugar/> */}
 
     <body className="bg-gray-700 flex flex-col min-h-screen ">
       {<header className="top-0 w-full">
@@ -19,7 +39,7 @@ function App() {
        }
       <main className="flex-grow">
         <Home/>
-        <Projects/>
+        <Projects data={data.projects}/>
         <Skills/>
       </main>
 

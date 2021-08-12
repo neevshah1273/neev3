@@ -10,13 +10,22 @@
     background-color: #14A76C
 }
 
+
+
 .h-104{
     height : 26rem;
 }
 
+.h-92{
+  height: 23rem;
+}
+
+.h-88{
+  height: 22rem;
+}
+
 
 .card {
-  //background: #fff;
   width: 24em;
   border-radius: 0.6em;
   margin: 1em;
