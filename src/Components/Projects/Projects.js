@@ -5,9 +5,6 @@ import {
     faGithub,
  } from '@fortawesome/free-brands-svg-icons';
 
- import {
-     faDownload
- } from '@fortawesome/fontawesome-free';
 
 
 
