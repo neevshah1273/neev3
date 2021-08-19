@@ -36,10 +36,10 @@ const Projects = (props) => {
                             <div className={colors[index]}>
                                 <div className="h-92">
                                     <div className="h-88">
-                                    <h1 className="self-center content-center text-center">
+                                    <h1 className="self-center content-center text-center text-5xl">
                                         {project.title}
                                     </h1>
-                                    <h6 className="self-center content-center text-center">
+                                    <h6 className="self-center content-center text-center text-xl">
                                         {project.heading}
                                     </h6>
                                     <div className="mx-2">
@@ -79,9 +79,6 @@ const Projects = (props) => {
         
         
   
-        //     
-        //         
-        //         
         //         </div>
         //         <div className="bg-2 h-104 card">
         //         <h1 className="self-center content-center text-center">
