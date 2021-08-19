@@ -31,6 +31,9 @@ const Projects = (props) => {
                 <div className="text-5xl text-white self-center items-center justify-center content-center text-center">
                     {props.data.subHeading}
                 </div>
+                <div className="text-5xl">
+                    XYZ
+                </div>
                 <div className="mt-5 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
                     projects.map((project,index) =>
