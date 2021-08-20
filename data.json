@@ -5,28 +5,28 @@
         "text":"A PROJECT IS COMPLETE WHEN IT STARTS WORKING FOR YOU, RATHER THAN YOU WORKING FOR IT.",
         "project":[
             {
-                "id": 1,
-                "heading": "A Blogging Website for travellers",
-                "title":"Nomadic",
-                "link":"https://github.com/neevshah1273/Nomadic",
-                "text":[
-                    "Designed, built and deployed a MERN stack-based web application to store and explore travel Blogs.",
-                    "Implemented email login using JWT and OAuth Google login for user authentication.",
-                    "Set up database with Mongo DB Atlas to store users, post and implement its edit, upvote and delete functionality."
-                ],
-                "Used" : "Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux."                  
-              },
+              "id": 1,
+              "heading": "A Blogging Website for travellers",
+              "title":"Nomadic",
+              "link":"https://github.com/neevshah1273/Nomadic",
+              "text":[
+                "Designed, built and deployed a MERN stack-based web application to store and explore travel Blogs.",
+                "Implemented email login using JWT and OAuth Google login for user authentication.",
+                "Set up database with Mongo DB Atlas to store users, post and implement its edit, upvote and delete functionality."
+              ],
+              "Used" : "Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux."                  
+            },
             {
-            "id": 2,
-            "heading": "browsering timelapses",
-            "title": "Timeflux",
-            "link":"https://github.com/ParthPrajapati43/WebT_Project_Timeflux",
-            "text":[
-                "Developed a React application to explore slow Mo and Time-Lapse videos.",
-                "Implemented email login using Firebase.",
-                "Set up database with Firebase to store information of user, posts and comments."
-            ],
-            "Used": "Used: ReactJs, Google Firebase."
+              "id": 2,
+              "heading": "browsering timelapses",
+              "title": "Timeflux",
+              "link":"https://github.com/ParthPrajapati43/WebT_Project_Timeflux",
+              "text":[
+                  "Developed a React application to explore slow Mo and Time-Lapse videos.",
+                  "Implemented email login using Firebase.",
+                  "Set up database with Firebase to store information of user, posts and comments."
+              ],
+              "Used": "Used: ReactJs, Google Firebase."
           },
           {
             "id": 3,
@@ -37,8 +37,8 @@
                 "Developed Personal Portfolio"
             ],
             "Used": "Used: ReactJs, TailWindCSS."
-           },
-           {
+          },
+          {
             "id": 4,
             "heading": "Localify",
             "title":"Grocery Delivery App",
