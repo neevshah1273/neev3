@@ -36,14 +36,12 @@ const Projects = (props) => {
                             <div >
                                 <div className="h-92">
                                     <div className="h-88">
-                                        <div className="self-center content-center text-center">
-                                            <div className="text-4xl">
+                                        <div className="self-center content-center text-center text-2xl">
                                             {project.title}
-                                            </div>
                                         </div>
-                                        <h6 className="self-center content-center text-center text-xl">
+                                        <div className="self-center content-center text-center text-xl">
                                             {project.heading}
-                                        </h6>
+                                        </div>
                                         <div className="mx-2">
                                             <ul className="list-disc list-inside">
                                                 {project.text.map((point)=>
