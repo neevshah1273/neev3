@@ -37,7 +37,37 @@
                 "Developed Personal Portfolio"
             ],
             "Used": "Used: ReactJs, TailWindCSS."
-           }
+           },
+           {
+            "id": 4,
+            "heading": "Localify",
+            "title":"Grocery Delivery App",
+            "link":"",
+            "text": [
+                "Developed application to find nearby stores and their real time stock",
+                "The app allowed users to order groceries from the nearby stores"
+            ],
+            "Used": "Used: Flutter, MongoDB, NodeJs, ExpressJs."
+           },
+           {
+            "id": 5,
+            "heading": "Visulization of algorithm",
+            "title": "CPU Scheduling Algorithm App",
+            "link":"https://github.com/neevshah1273/CPU-Scheduling",
+            "text":[
+                "Solve problems of CPU Scheduling algorithm, solution will show you which process is at which state at every point of time.",
+                "It helps to understand how CPU Scheduling algorithms works."
+            ],
+            "Used": "Used: Flutter."
+          },
+          {
+            "id": 6,
+            "heading": "Under Construction",
+            "title": "Auction11",
+            "link":"",
+            "text":[],
+            "Used": ""
+          }
         ]
     },
     "Skills" : [

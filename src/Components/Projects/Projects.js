@@ -17,7 +17,10 @@ const Projects = (props) => {
     let colors=[
         'bg-1',
         'bg-2',
-        'bg-3'
+        'bg-3',
+        'bg-2',
+        'bg-3',
+        'bg-1'
     ]
 
     return (
@@ -78,125 +81,14 @@ const Projects = (props) => {
         
         
   
-        //         </div>
-        //         <div className="bg-2 h-104 card">
-        //         <h1 className="self-center content-center text-center">
-        //             Timeflux
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 browsering timelapses
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-        //                         Developed a React application to explore slow Mo and Time-Lapse videos.
-        //                     </li>
-        //                     <li>
-        //                         Implemented email login using Firebase.
-        //                     </li>
-        //                     <li>
-        //                         Set up database with Firebase to store information of user, posts and comments.
-        //                     </li>
-        //                 </ul>
-        //                 <div className="font-bold">
-        //                     Used: ReactJs, Google Firebase.
-        //                 </div>
-        //                 <div className="pt-28">
-        //                 <a href="https://github.com/ParthPrajapati43/WebT_Project_Timeflux">
-        //                     <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
-        //                 </a>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //         <div className="bg-3 h-104 card">
-        //         <h1 className="self-center content-center text-center">
-        //             Portfolio
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 personal Portfolio
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-        //                         Developed Personal Portfolio
-        //                     </li>
-        //                 </ul>
-        //                 <div className="font-bold">
-        //                     Used: ReactJs, TailWindCSS.
-        //                 </div>
-        //                 <div className="pt-52">
-        //                 <a href="https://github.com/neevshah1273/Portfolio">
-        //                     <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
-        //                 </a>
-        //                 </div>                        
-        //             </div>
 
-        //         </div>
-        //         <div className="bg-2 h-104 card">
-        //             <h1 className="self-center content-center text-center">
-        //                 Localify
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 Grocery Delivery App
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-        //                         Developed application to find nearby stores and their real time stock
-        //                     </li>
-        //                     <li>
-        //                         The app allowed users to order groceries from the nearby stores
-        //                     </li>
-        //                     <li>
-        //                         a    
-        //                     </li>
-        //                 </ul>
-        //                 <div className="font-bold">
-        //                     Used: Flutter, MongoDB, NodeJs, ExpressJs.
-        //                 </div>
-        //             </div>
-
-        //         </div>
-        //         <div className="bg-3 h-104 card">
-        //         <h1 className="self-center content-center text-center">
-        //             CPU Scheduling Algorithm App
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 App
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-        //                     Solve problems of CPU Scheduling algorithm, solution will show you which process is at which state at every point of time.
-        //                     </li>
-        //                     <li>
-        //                     It helps to understand how CPU Scheduling algorithms works.
-        //                     </li>
-        //                 </ul>
-        //                 <div className="font-bold">
-        //                     Used: Flutter.
-        //                 </div>
-        //                 <div className="row-auto pt-0">
-        //                     <div>
-        //                         <a href="https://github.com/neevshah1273/CPU-Scheduling">
-        //                             <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
-        //                         </a>
-        //                     </div>
-        //                     <div>
-        //                         <a href="https://github.com/neevshah1273/CPU-Scheduling/raw/master/app-release.apk">
-        //                             <FontAwesomeIcon icon={faDownload} color="#000" className="fa-3x" />
-        //                         </a>
-        //                     </div>
-
-        //                 </div>
-        //             </div>
-        //         </div>
+       
         //         <div className="bg-1 h-104 card">
         //         <h1 className="self-center content-center text-center">
-        //             Auction11
+        //             
         //             </h1>
         //             <h6 className="self-center content-center text-center">
-        //                 Work Under Construction
+        //                 Work
         //             </h6>
         //             <div className="mx-2">
         //                 <ul className="list-disc list-inside">
