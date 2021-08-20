@@ -5,6 +5,8 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills.js";
 import React,{useEffect,useState} from "react";
 
+
+
 function App() {
 
   const [data,setData] = useState([]);

@@ -32,13 +32,15 @@ const Projects = (props) => {
                 {
                     projects.map((project,index) =>
                         
-                        <div className="h-104 card">
-                            <div className={colors[index]}>
+                        <div className={"h-104 card " + colors[index]}>
+                            <div >
                                 <div className="h-92">
                                     <div className="h-88">
-                                        <h1 className="self-center content-center text-center text-5xl">
+                                        <div className="self-center content-center text-center">
+                                            <h1>
                                             {project.title}
-                                        </h1>
+                                            </h1>
+                                        </div>
                                         <h6 className="self-center content-center text-center text-xl">
                                             {project.heading}
                                         </h6>
