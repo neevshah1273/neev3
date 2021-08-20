@@ -36,25 +36,24 @@ const Projects = (props) => {
                             <div className={colors[index]}>
                                 <div className="h-92">
                                     <div className="h-88">
-                                    <h1 className="self-center content-center text-center text-5xl">
-                                        {project.title}
-                                    </h1>
-                                    <h6 className="self-center content-center text-center text-xl">
-                                        {project.heading}
-                                    </h6>
-                                    <div className="mx-2">
-                                        <ul className="list-disc list-inside">
-                                            {project.text.map((point)=>
-                                                <li>
-                                                    {point}
-                                                </li>
-                                            )}
-                                        </ul>
-                                        <div className="font-bold">
-                                            {project.used}
+                                        <h1 className="self-center content-center text-center text-5xl">
+                                            {project.title}
+                                        </h1>
+                                        <h6 className="self-center content-center text-center text-xl">
+                                            {project.heading}
+                                        </h6>
+                                        <div className="mx-2">
+                                            <ul className="list-disc list-inside">
+                                                {project.text.map((point)=>
+                                                    <li>
+                                                        {point}
+                                                    </li>
+                                                )}
+                                            </ul>
+                                            <div className="font-bold">
+                                                {project.used}
+                                            </div>
                                         </div>
-                                    </div>
-
                                     </div>
 
                                 </div>
