@@ -37,9 +37,9 @@ const Projects = (props) => {
                                 <div className="h-92">
                                     <div className="h-88">
                                         <div className="self-center content-center text-center">
-                                            <h1>
+                                            <div className="text-4xl">
                                             {project.title}
-                                            </h1>
+                                            </div>
                                         </div>
                                         <h6 className="self-center content-center text-center text-xl">
                                             {project.heading}
