@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/neev3/static/css/main.8dc558bb.chunk.css",
-    "main.js": "/neev3/static/js/main.54cedc56.chunk.js",
-    "main.js.map": "/neev3/static/js/main.54cedc56.chunk.js.map",
+    "main.css": "/neev3/static/css/main.4f442fb8.chunk.css",
+    "main.js": "/neev3/static/js/main.687d5b81.chunk.js",
+    "main.js.map": "/neev3/static/js/main.687d5b81.chunk.js.map",
     "runtime-main.js": "/neev3/static/js/runtime-main.25ef4c9f.js",
     "runtime-main.js.map": "/neev3/static/js/runtime-main.25ef4c9f.js.map",
     "static/js/2.f129534e.chunk.js": "/neev3/static/js/2.f129534e.chunk.js",
     "static/js/2.f129534e.chunk.js.map": "/neev3/static/js/2.f129534e.chunk.js.map",
     "index.html": "/neev3/index.html",
-    "static/css/main.8dc558bb.chunk.css.map": "/neev3/static/css/main.8dc558bb.chunk.css.map",
+    "static/css/main.4f442fb8.chunk.css.map": "/neev3/static/css/main.4f442fb8.chunk.css.map",
     "static/js/2.f129534e.chunk.js.LICENSE.txt": "/neev3/static/js/2.f129534e.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/neev3/static/media/Neev.86c5648e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.25ef4c9f.js",
     "static/js/2.f129534e.chunk.js",
-    "static/css/main.8dc558bb.chunk.css",
-    "static/js/main.54cedc56.chunk.js"
+    "static/css/main.4f442fb8.chunk.css",
+    "static/js/main.687d5b81.chunk.js"
   ]
 }
