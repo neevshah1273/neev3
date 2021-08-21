@@ -20,7 +20,10 @@ const Projects = (props) => {
         'bg-3',
         'bg-2',
         'bg-3',
-        'bg-1'
+        'bg-1',
+        'bg-3',
+        'bg-1',
+        'bg-2'
     ]
 
     return (
@@ -82,46 +85,7 @@ const Projects = (props) => {
         
   
 
-       
-        //         <div className="bg-1 h-104 card">
-        //         <h1 className="self-center content-center text-center">
-        //             
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 Work
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-                                
-        //                     </li>
-        //                 </ul>
-        //             </div>
-        //         </div>                
-        //         <div className="bg-3 h-104 card">
-        //             <h1 className="self-center content-center text-center">
-        //             AirHockey
-        //             </h1>
-        //             <h6 className="self-center content-center text-center">
-        //                 Game Development
-        //             </h6>
-        //             <div className="mx-2">
-        //                 <ul className="list-disc list-inside">
-        //                     <li>
-        //                         Developed Airhockey using JAVaA
-        //                     </li>
-        //                 </ul>
-        //                 <div className="font-bold">
-        //                     Used: java.
-        //                 </div>
-        //                 <div className="pt-52">
-        //                 <a href="https://github.com/neevshah1273/AIRHOCKY">
-        //                     <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
-        //                 </a>
-        //                 </div>
-        //             </div>
-
-        //         </div>
+                  
         //         <div className="bg-1 h-104 card">
         //         <h1 className="self-center content-center text-center">
         //             Car rental Management System
