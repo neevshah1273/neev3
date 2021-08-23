@@ -1,5 +1,5 @@
 import React from 'react';
-
+import TypewriterComponent from 'typewriter-effect';
 import './Home.css';
 import '../assets/Neev.jpg';
 
@@ -10,7 +10,21 @@ const Home = () => {
                 <div className="m-auto justify-center items-center align-middle">
                     <div className="align-middle content-center items-center m-auto my-auto headshot headshot-2"></div>
                     <div className="my-4"></div>
-                    <div className="text-center text-4xl text-white">SDE</div>
+                    
+                    <div className="text-center text-4xl text-white">
+                        <TypewriterComponent
+                            onInit = {(typewriter) => {
+                                typewriter.
+                                typeString("Hello!")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("I'm Neev Shah")
+                                .pauseFor(2000)
+                                .deleteAll()
+                                .typeString("I'm Software Developer").start()
+                            }}
+                        />
+                    </div>
                     <div className="my-10"></div>
                     <div className="flex">
                         <a href="mailto:neevshah1273@gmail.com">
@@ -18,7 +32,6 @@ const Home = () => {
                         h-12">
                         <div className="text-2xl mx-5 text-white">
                                 Hire Me
-                                
                             </div>
                         
                             
