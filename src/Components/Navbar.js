@@ -16,7 +16,7 @@ const Navbar= () => {
                     href="#Skills" 
                     className="text-white"
                 >
-                    {"<Skills/>"}
+                    {/* {"<Skills/>"} */}
                     </a>
                     
             </div>
