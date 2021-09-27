@@ -37,10 +37,13 @@ const Home = () => {
                             
                         </button>
                         </a>
+                        <a href="/NeevShahV3.0.pdf" download>
                         <button className="flex-1 mx-4 bg-blue-500 hover:bg-blue-700 text-white h-12 font-bold py-2 px-4 rounded-full inline-flex items-center">
                             <svg className="fill-current w-8 h-8 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                             <span>Download Resume</span>
                         </button>
+                        </a>
+
                     </div>
                 </div>
             </div>
