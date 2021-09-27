@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/neev3/static/css/main.4f442fb8.chunk.css",
-    "main.js": "/neev3/static/js/main.14bc3a4a.chunk.js",
-    "main.js.map": "/neev3/static/js/main.14bc3a4a.chunk.js.map",
+    "main.js": "/neev3/static/js/main.fd8715b2.chunk.js",
+    "main.js.map": "/neev3/static/js/main.fd8715b2.chunk.js.map",
     "runtime-main.js": "/neev3/static/js/runtime-main.25ef4c9f.js",
     "runtime-main.js.map": "/neev3/static/js/runtime-main.25ef4c9f.js.map",
     "static/js/2.357a96c0.chunk.js": "/neev3/static/js/2.357a96c0.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.25ef4c9f.js",
     "static/js/2.357a96c0.chunk.js",
     "static/css/main.4f442fb8.chunk.css",
-    "static/js/main.14bc3a4a.chunk.js"
+    "static/js/main.fd8715b2.chunk.js"
   ]
 }
