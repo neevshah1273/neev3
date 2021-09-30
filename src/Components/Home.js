@@ -51,7 +51,7 @@ const Home = () => {
                         </a>
 
                     </div>
-                    <div className="my-10 md:my-20"></div>
+                    <div className="md:my-20"></div>
                 </div>     
             </div>
         </div>
