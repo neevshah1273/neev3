@@ -15,9 +15,9 @@ const Home = () => {
             <div className="flex abc h-screen">
                 <div className="m-auto justify-center items-center align-middle">
                     <div className="align-middle content-center items-center m-auto my-auto headshot headshot-2"></div>
-                    <div className="my-4"></div>
+                    <div className="my-10"></div>
                     
-                    <div className="text-center text-4xl text-white">
+                    <div className="text-center text-3xl md:text-5xl text-white">
                         <TypewriterComponent
                             onInit = {(typewriter) => {
                                 typewriter.
@@ -51,7 +51,8 @@ const Home = () => {
                         </a>
 
                     </div>
-                </div>
+                    <div className="my-10 md:my-20"></div>
+                </div>     
             </div>
         </div>
     )
