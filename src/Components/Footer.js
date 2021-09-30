@@ -10,12 +10,12 @@ const Footer = () => {
     return (
         <div className="flex text-white text-3xl pb-3 pt-3 bg-blue-600">
             <div className="flex-1">
-                <div className="ml-10">
+                <div className="ml-4 md:ml-10">
                 Neev Shah
                 </div>
 
             </div>
-            <div className="flex-1">
+            <div className="md:flex-1">
 
             </div>
             <div className="flex-1 space-x-4 text-center">
