@@ -23,7 +23,8 @@ function App() {
       })
       .then(function (myJson) {
         setData(myJson);
-      });
+      })
+      .catch((err)=>console.log(err.message));
   }
 
   useEffect(() => {
