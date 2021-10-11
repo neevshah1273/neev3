@@ -13,10 +13,10 @@ const Navbar= () => {
                     {"<Projects/>"}
                     </a>
                     <a
-                    href="#Skills" 
+                    href="#skills" 
                     className="text-white"
                 >
-                    {/* {"<Skills/>"} */}
+                    {"<Skills/>"}
                     </a>
                     
             </div>
