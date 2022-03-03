@@ -13,7 +13,7 @@ function App() {
   const [data,setData] = useState([]);
 
   const getData = () => {
-    fetch("neev3/data.json", {
+    fetch("data.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
