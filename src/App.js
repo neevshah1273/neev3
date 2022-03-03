@@ -3,6 +3,7 @@ import Footer from './Components/Footer.js';
 import Home from "./Components/Home";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills.js";
+import Experience from "./Components/Experience/Experience.js";
 import React,{useEffect,useState} from "react";
 
 
@@ -12,7 +13,7 @@ function App() {
   const [data,setData] = useState([]);
 
   const getData = () => {
-    fetch("data.json", {
+    fetch("neev3/data.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -42,6 +43,7 @@ function App() {
        }
       <main className="flex-grow">
         <Home/>
+        <Experience data={data.Experience}/>
         <Projects data={data.projects}/>
         <Skills/>
       </main>

@@ -88,6 +88,26 @@
           }
         ]
     },
+    "Experience" : [
+        {
+          "position" : "Full-stack Software Engineering Intern",
+          "company" : "Apice Tech Pvt Ltd",
+          "location" : "Delhi, India. (Remote)",
+          "Duration" : "January, 2022 - present",
+          "Details" : ["Worked on KazeQ.io project",
+                        "utilized Java Spring boot for backend services",
+                        "Implementing front-end using reactJs",
+                        "Implemented features like automated API Testings",
+                        "Resolved the bugs of spring boot based microservice for pre-production, production and post-production patches."
+                      ],
+          "Tech-Stacks" : [
+            "ReactJs",
+            "Java SpringBoot",
+            "docker",
+            "AWS"
+          ]
+        }
+    ],
     "Skills" : [
 
     ]
