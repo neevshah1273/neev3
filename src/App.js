@@ -48,7 +48,7 @@ function App() {
         <Skills/>
       </main>
 
-      <footer className="fixed bottom-0 w-full">
+      <footer className="fixed bottom-0 w-screen">
         <Footer/>
       </footer>
     </body>
