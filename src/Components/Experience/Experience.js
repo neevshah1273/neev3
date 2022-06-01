@@ -23,7 +23,7 @@ const Experience = (props) => {
 
     return(
         props.data?
-        <div>
+        <div id="experience">
             <div className="text-5xl text-white self-center items-center justify-center content-center text-center">
             Experience
         </div>
