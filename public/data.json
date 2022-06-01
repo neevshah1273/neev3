@@ -32,9 +32,10 @@
             "id": 3,
             "heading": "personal Portfolio",
             "title":"Portfolio",
-            "link":"",
+            "link":"https://github.com/neevshah1273/neev3",
             "text": [
-                "Developed Personal Portfolio"
+                "Developed Personal Portfolio using ReactJs",
+                "Explored tailwind-css for the styling"
             ],
             "Used": "Used: ReactJs, TailWindCSS."
           },
@@ -62,11 +63,14 @@
           },
           {
             "id": 6,
-            "heading": "Under Construction",
+            "heading": "fantasy auction simullator",
             "title": "Auction11",
             "link":"",
-            "text":[],
-            "Used": ""
+            "text":[
+              "Developed API for the fantasy auction simullator",
+              "Developed using NodeJs, ExpressJs and MongoDB"
+            ],
+            "Used": "Used : NodeJs, ExpressJs, Mongo DB"
           },
           {
             "id": 7,
@@ -94,7 +98,7 @@
           "company" : "Apice Tech Pvt Ltd",
           "location" : "Delhi, India. (Remote)",
           "Duration" : "January, 2022 - May, 2022",
-          "Details" : ["Worked on KazeQ.io project",
+          "Details" : ["Worked on KaizIQ.io project",
                         "utilized Java Spring boot for backend services",
                         "Implementing front-end using reactJs",
                         "Implemented features like automated API Testing & management of CICD taskFlow",
