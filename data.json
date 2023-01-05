@@ -6,6 +6,19 @@
         "project":[
             {
               "id": 1,
+              "heading": "Sale Management Application",
+              "title":"Welcome Broker",
+              "link":"https://play.google.com/store/apps/details?id=com.welcomebroker.welcome_broker&pli=1",
+              "text":[
+                "Using Flutter, Worked on Play Store project where implemented features like sauda management which keeps track of the deals of the businesses associated with Welcome Broker.",
+                "Added automated data summary tools to improve the business for the clients of Welcome broker.",
+                " Added accessibility criteria for the different business terms & rules, making it easier for the client to work with their business.",
+                "Developed backend with NodeJs and used MongoDB as database. Other Technologies used: Docker, AWS."
+              ],
+              "Used" : "Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux."                  
+            },
+            {
+              "id": 2,
               "heading": "A Blogging Website for travellers",
               "title":"Nomadic",
               "link":"https://github.com/neevshah1273/Nomadic",
@@ -17,7 +30,7 @@
               "Used" : "Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux."                  
             },
             {
-              "id": 2,
+              "id": 3,
               "heading": "browsering timelapses",
               "title": "Timeflux",
               "link":"https://github.com/ParthPrajapati43/WebT_Project_Timeflux",
@@ -29,7 +42,7 @@
               "Used": "Used: ReactJs, Google Firebase."
           },
           {
-            "id": 3,
+            "id": 4,
             "heading": "personal Portfolio",
             "title":"Portfolio",
             "link":"https://github.com/neevshah1273/neev3",
@@ -40,7 +53,7 @@
             "Used": "Used: ReactJs, TailWindCSS."
           },
           {
-            "id": 4,
+            "id": 5,
             "heading": "Localify",
             "title":"Grocery Delivery App",
             "link":"",
@@ -51,7 +64,7 @@
             "Used": "Used: Flutter, MongoDB, NodeJs, ExpressJs."
            },
            {
-            "id": 5,
+            "id": 6,
             "heading": "Visulization of algorithm",
             "title": "CPU Scheduling Algorithm App",
             "link":"https://github.com/neevshah1273/CPU-Scheduling",
@@ -62,7 +75,7 @@
             "Used": "Used: Flutter."
           },
           {
-            "id": 6,
+            "id": 7,
             "heading": "fantasy auction simullator",
             "title": "Auction11",
             "link":"",
@@ -73,7 +86,7 @@
             "Used": "Used : NodeJs, ExpressJs, Mongo DB"
           },
           {
-            "id": 7,
+            "id": 8,
             "heading": "Game Development",
             "title": "AirHockey",
             "link":"https://github.com/neevshah1273/AIRHOCKY",
@@ -83,7 +96,7 @@
             "Used": "Used: java."
           },
           {
-            "id": 8,
+            "id": 9,
             "heading": "",
             "title": "",
             "link":"",
