@@ -5,7 +5,7 @@
 
 .headshot-2 {
     background-image: linear-gradient(#111, #050505);
-	--img-url: url(../assets/Neev.jpg);
+	--img-url: url(../assets/NeevB.jpg);
 	border-radius: 50%;
 	background-image: var(--img-url), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
@@ -30,13 +30,13 @@ font-family: "Montserrat", sans-serif !important;
 }
 
 .abc{
-    //font-family: "Montserrat", sans-serif;
-	//min-height: 100vh;
-    //height : 80vh;
+    /* font-family: "Montserrat", sans-serif; */
+	/* //min-height: 100vh;
+    //height : 80vh; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	//flex-direction: column;
+	/* //flex-direction: column; */
 }
 
 

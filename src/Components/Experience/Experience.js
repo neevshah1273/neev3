@@ -29,16 +29,16 @@ const Experience = (props) => {
         </div>
         {
         experiences.map((exp,index) =>
-            <div class="container-fluid">
+            <div className="container-fluid">
             <div className="flex flex-row">
                 <div className="row card bgs-1 mx-5">
-                    <div class="card-body pl-5">
+                    <div className="card-body pl-5">
                         <div className="row pb-3">
-                            <div class="col-7 float-left">
+                            <div className="col-7 float-left">
                                 <div><b>{exp.position}</b>,&nbsp;
                                 {exp.company}</div>
                             </div>
-                            <div class="col-4 text-right float-right">
+                            <div className="col-4 text-right float-right">
                                 <div> {exp.Duration} | {exp.location}
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const Experience = (props) => {
                         
                     </div>
                 </div>
-                <div class="Styles_dottedLine__2Qarm">
+                <div className="Styles_dottedLine__2Qarm">
                     <div>.</div>
                     <div>.</div>
                     <div>.</div>
