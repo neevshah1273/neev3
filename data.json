@@ -6,16 +6,14 @@
         "project":[
             {
               "id": 1,
-              "heading": "Sale Management Application",
-              "title":"Welcome Broker",
+              "heading": "A Blockchain Based E-Voting platform",
+              "title":"ElectChain",
               "link":"https://play.google.com/store/apps/details?id=com.welcomebroker.welcome_broker&pli=1",
               "text":[
-                "Using Flutter, Worked on Play Store project where implemented features like sauda management which keeps track of the deals of the businesses associated with Welcome Broker.",
-                "Added automated data summary tools to improve the business for the clients of Welcome broker.",
-                " Added accessibility criteria for the different business terms & rules, making it easier for the client to work with their business.",
-                "Developed backend with NodeJs and used MongoDB as database. Other Technologies used: Docker, AWS."
+                "Designed and developed a blockchain-based E-Voting android application.",
+                "Implemented features like proof of work based secured voting transactions, also managing the registration, voting, and results."
               ],
-              "Used" : "Used: React, Node, Express, MongoDB (mongoose, Atlas), Redux."                  
+              "Used" : "Used: Kotlin, Node.Js, Solidity, Metamask, Ropston Test Network."                  
             },
             {
               "id": 2,
@@ -97,29 +95,49 @@
           },
           {
             "id": 9,
-            "heading": "",
-            "title": "",
+            "heading": "programming language",
+            "title": "Sanskritava",
             "link":"",
-            "text":[],
-            "Used": ""
+            "text":[
+              "By leveraging Java as the underlying implementation language and incorporating the Sanskrit-inspired syntax, the project aimed to enable developers to write code that closely aligns with natural language patterns while achieving the desired program outcomes.",
+              "Designed grammer and parsed using antlr",
+              "The language will provide support for basic operations such as arithmetic calculations, variable assignment, and conditional statements.",
+              "Created a functional programming language in Java, utilizing an intermediate code representation for efficient execution and translation of sample code into the expected output."
+            ],
+            "Used": "Used: Java, Antlr"
           }
         ]
     },
     "Experience" : [
         {
+          "position" : "Software Engineer",
+          "company" : "Welcome Broker",
+          "location" : "Remote",
+          "Duration" : "June, 2022 - present",
+          "Details" : ["Created an innovative business management application using Flutter, Node.js, and MongoDB, which included features such as sauda management, automated data summary tools, and enhanced accessibility criteria for clients of Welcome Broker",
+                        "Designed & Developed an end-to-end applications from scratch, Led end-to-end development efforts, including project management, software design, coding, testing, and deployment",
+                        "Utilized Docker and AWS to ensure seamless scalability and performance optimization. This resulted in a highly functional and user-friendly application, empowering clients to effectively manage their businesses and optimize their operations"
+                      ],
+          "Tech-Stacks" : [
+            "Flutter",
+            "NodeJs",
+            "MongoDB",
+            "docker",
+            "AWS"
+          ]
+        },
+        {
           "position" : "Software Engineering Intern",
           "company" : "Apice Tech Pvt Ltd",
-          "location" : "Delhi, India. (Remote)",
+          "location" : "Delhi, India",
           "Duration" : "January, 2022 - May, 2022",
-          "Details" : ["Worked on KaizIQ.io project",
-                        "utilized Java Spring boot for backend services",
-                        "Implementing front-end using reactJs",
-                        "Implemented features like automated API Testing & management of CICD taskFlow",
-                        "Resolved the bugs of spring boot based microservice for pre-production, production and post-production patches."
+          "Details" : ["Implemented features like a project management tool, CI/CD automation management, and testing automation management in the back-end utilizing Java working on KaizIQ project, which is a tool that brings together Project Management, Testing, CI/CD Pipelines and Deployments into one space.",
+                        "Developed front-end screens for features like automated API Testing and automated Deployment using ReactJS."
                       ],
           "Tech-Stacks" : [
             "ReactJs",
             "Java SpringBoot",
+            "Oracle SQL",
             "docker",
             "AWS"
           ]
