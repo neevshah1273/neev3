@@ -48,7 +48,10 @@ const Experience = (props) => {
                                 <li>{det}</li>)
                             }
                         </ul>
-                        
+                        <div className="row">
+                            Technologies: &nbsp; &nbsp;
+                            {exp.Tech_Stacks?.map((stack)=> <div> {stack} &nbsp;</div>)}
+                        </div>
                     </div>
                 </div>
                 <div className="Styles_dottedLine__2Qarm">

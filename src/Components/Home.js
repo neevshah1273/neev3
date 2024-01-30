@@ -37,7 +37,7 @@ const Home = () => {
                         <button className="flex-1 mx-4 bg-blue-500 hover:bg-blue-700 text-white  font-bold py-2 px-4 rounded-full inline-flex items-center
                         h-12">
                         <div className="text-2xl mx-5 text-white">
-                                Hire Me
+                                Connect
                             </div>
                         
                             

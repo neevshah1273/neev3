@@ -105,6 +105,17 @@
               "Created a functional programming language in Java, utilizing an intermediate code representation for efficient execution and translation of sample code into the expected output."
             ],
             "Used": "Used: Java, Antlr"
+          },
+          {
+            "id": 9,
+            "heading": "Full Stack Development",
+            "title": "Crimelens",
+            "link":"",
+            "text":[
+              "Developed a data visualization dashboard which shows the various studies of crime in the US using Next.Js with D3.Js & integrated with Java based backend.",
+              "Preprocessed the 3 datasets, prepared the ontology according to the datasets, created a Knowledge graph, hosted it on the Apache Jena Fuskei server, and ran the SPARQL queries to fetch open linked data from the Apache Jena."
+            ],
+            "Used": "NextJs, Java, Apache Jena Fuseki, D3.Js, SPARQL, OWL"
           }
         ]
     },
@@ -113,17 +124,19 @@
           "position" : "Software Engineer",
           "company" : "Welcome Broker",
           "location" : "Remote",
-          "Duration" : "June, 2022 - present",
-          "Details" : ["Created an innovative business management application using Flutter, Node.js, and MongoDB, which included features such as sauda management, automated data summary tools, and enhanced accessibility criteria for clients of Welcome Broker",
-                        "Designed & Developed an end-to-end applications from scratch, Led end-to-end development efforts, including project management, software design, coding, testing, and deployment",
-                        "Utilized Docker and AWS to ensure seamless scalability and performance optimization. This resulted in a highly functional and user-friendly application, empowering clients to effectively manage their businesses and optimize their operations"
+          "Duration" : "June, 2022 - Dec, 2023",
+          "Details" : ["Engineered business management application, which included features such as order management, data analysis tools, and a notification system which resulted in the increase of the order accuracy rate from 75% to 99.96%.",
+                        "Spearheaded the end-to-end development of a comprehensive application, overseeing project management, designing the software architecture, implementing code, and testing.",
+                        "Improved the response times by 90% through implementation of Redis based caching mechanism."
                       ],
-          "Tech-Stacks" : [
+          "Tech_Stacks" : [
             "Flutter",
             "NodeJs",
             "MongoDB",
             "docker",
-            "AWS"
+            "AWS",
+            "Redis",
+            "Firebase Clould Messaging"
           ]
         },
         {
@@ -131,15 +144,16 @@
           "company" : "Apice Tech Pvt Ltd",
           "location" : "Delhi, India",
           "Duration" : "January, 2022 - May, 2022",
-          "Details" : ["Implemented features like a project management tool, CI/CD automation management, and testing automation management in the back-end utilizing Java working on KaizIQ project, which is a tool that brings together Project Management, Testing, CI/CD Pipelines and Deployments into one space.",
-                        "Developed front-end screens for features like automated API Testing and automated Deployment using ReactJS."
+          "Details" : ["Programmed features like a project management tool, CI/CD flow management, and testing automation management in the back-end utilizing Java working on KaizIQ project, which resulted in the increase in the bug detection up to 70%.",
+                        "Developed front-end screens for features like API Testing and automated Deployment using ReactJS & Integrated with REST APIs."
                       ],
-          "Tech-Stacks" : [
+          "Tech_Stacks" : [
             "ReactJs",
             "Java SpringBoot",
             "Oracle SQL",
             "docker",
-            "AWS"
+            "AWS",
+            "RabbitMQ"
           ]
         }
     ],

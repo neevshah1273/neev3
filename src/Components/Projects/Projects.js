@@ -23,7 +23,8 @@ const Projects = (props) => {
         'bg-1',
         'bg-3',
         'bg-1',
-        'bg-2'
+        'bg-2',
+        'bg-1'
     ]
 
     return (
@@ -34,42 +35,36 @@ const Projects = (props) => {
                 <div className="text-5xl text-white self-center items-center justify-center content-center text-center">
                     {props.data.subHeading}
                 </div>
-                <div className="mt-5 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div className="mt-5 sm:ml-4 sm:mr-4 md:ml-10 md:mr-10 2xl:ml-20 2xl:mr-20 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 project">
                 {
                     projects.map((project,index) =>
                         
-                        <div className={"h-104 card " + colors[index]}>
-                            <div >
-                                <div className="h-92">
-                                    <div className="h-88">
-                                        <div className="self-center content-center text-center text-4xl">
-                                            {project.title}
-                                        </div>
-                                        <div className="self-center content-center text-center text-xl">
-                                            {project.heading}
-                                        </div>
-                                        <div className="mx-2">
-                                            <ul className="list-disc list-inside">
-                                                {project.text.map((point)=>
-                                                    <li>
-                                                        {point}
-                                                    </li>
-                                                )}
-                                            </ul>
-                                            <div className="font-bold">
-                                                {project.used}
-                                            </div>
-                                        </div>
-                                    </div>
-
+                        <div className={"card " + colors[index]}>
+                            <div className="flex flex-col h-full w-full">
+                                <div className="self-center content-center text-center text-4xl">
+                                    {project.title}
                                 </div>
-                                <div className="h-12">
+                                <div className="self-center content-center text-center text-xl">
+                                    {project.heading}
+                                </div>
+                                <div className="mx-2 flex-1">
+                                    <ul className="list-disc list-inside">
+                                        {project.text.map((point)=>
+                                            <li>
+                                                {point}
+                                            </li>
+                                        )}
+                                    </ul>
+                                    <div className="font-bold">
+                                        {project.used}
+                                    </div>
+                                </div>
+                                <div className="">
                                     <a href={project.link}>
                                         <FontAwesomeIcon icon={faGithub} color="#000" className="fa-3x" />
                                     </a>
                                 </div>
                             </div>
-                            
                         </div>
                     )
                 }
