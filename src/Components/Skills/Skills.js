@@ -4,11 +4,11 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className="sills pt-16 pb-8 mb-28" id="skills">
+        <div className="sills pt-16 pb-8" id="skills">
             <div className="text-5xl text-white self-center items-center justify-center content-center text-center">
                 Skills Overview
             </div>  
-            <div className="mt-5 pb-5 container flex flex-col justify-center items-center">
+            <div className="mt-5 container flex flex-col justify-center items-center">
                 <iframe
                     className="responsive-iframe"
                     title="Skills"
